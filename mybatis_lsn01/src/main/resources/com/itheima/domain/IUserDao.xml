@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+     private int id;
+    private String username;
+    private Date birthday;
+    private String sex;
+    private String address;
+-->
+
+<mapper namespace="com.itheima.dao.IUserDao">
+    <insert id="add" parameterType="user">
+        insert into user values(null,#{username},#{birthday},#{sex},#{address})
+    </insert>
+</mapper>
