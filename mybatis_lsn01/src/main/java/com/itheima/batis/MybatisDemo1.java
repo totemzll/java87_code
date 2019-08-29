@@ -33,6 +33,9 @@ public class MybatisDemo1 {
         user.setAddress("湖北武汉");
         mapper.add(user);
 
+
+
+
         sqlSession.close();
         inputStream.close();
 
