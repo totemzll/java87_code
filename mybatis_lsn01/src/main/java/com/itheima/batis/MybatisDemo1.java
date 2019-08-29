@@ -33,7 +33,7 @@ public class MybatisDemo1 {
         user.setAddress("湖北武汉");
         mapper.add(user);
 
-
+        System.out.println("新加的代码...");
 
 
         sqlSession.close();
